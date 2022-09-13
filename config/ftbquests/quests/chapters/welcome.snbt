@@ -3,7 +3,7 @@
 	group: ""
 	order_index: 0
 	filename: "welcome"
-	title: "Welcome"
+	title: "欢迎"
 	icon: "minecraft:diamond"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -64,15 +64,15 @@
 		y: -8.0d
 		shape: "hexagon"
 		description: [
-			"Welcome to ATM7... Now in the Sky!"
+			"欢迎来到ATM7……现在您正在天空之中！"
 			""
-			"To get started with questing, check out the tabs on the left to jump in!"
+			"要开始任务，请查看左边的选项"
 			""
-			"If you are new to AllTheMods, make sure to check out the &aAllTheModium&r Chapter!"
+			"如果这是您第一次游玩AllTheMods，请务必查看&aATM元素&r章节！"
 			""
-			"If you are new to Skyblock packs or modded MC, check out the &6Main Questline&r to help you get started."
+			"如果您是空岛包与模组的新手，请查看&6主线&r来帮助您开始。"
 			""
-			"Note:  Mods are not gated by quests. Quests are optional."
+			"注意：mod的发展不受任务的限制，任务仅为可选项。"
 		]
 		size: 2.0d
 		optional: true
