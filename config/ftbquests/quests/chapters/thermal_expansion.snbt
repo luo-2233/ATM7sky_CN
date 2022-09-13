@@ -3,7 +3,7 @@
 	group: "2B51AC12041E3F89"
 	order_index: 4
 	filename: "thermal_expansion"
-	title: "Thermal Series"
+	title: "热力系列"
 	icon: "thermal:machine_frame"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -25,11 +25,11 @@
 			x: -4.5d
 			y: 0.0d
 			shape: "square"
-			subtitle: "And Also Thermal Series!"
+			subtitle: "还有热力系列！"
 			description: [
-				"Thermal Series is a modular series of mods that add a content-rich blend of magic and technology to your Minecraft experience!"
+				"热力系列是一个模块化的模组，它可以为您的游戏体验添加内容丰富的魔法与科技的融合。"
 				""
-				"A lot of the machines provide a basic function, with easy upgrades."
+				"许多机器都提供了一个基础的功能，并且升级也极为简单。"
 			]
 			size: 1.5d
 			id: "2C50B0E024C3D92E"
@@ -58,14 +58,14 @@
 			]
 		}
 		{
-			title: "The Redstone Furnace"
+			title: "通量熔炼炉"
 			x: 1.5d
 			y: 0.0d
-			subtitle: "Powered Furnace"
+			subtitle: "电力熔炉"
 			description: [
-				"The Redstone Furnace uses RF/FE instead of Coal to smelt items."
+				"通量能源炉使用RF/FE来替代煤炭熔炼物品"
 				""
-				"Like all machines in the Thermal Series, this machine can be upgraded with augments to increase the speed of each process."
+				"像热力系列的所有机器一样，这台机器能够添加升级，以此来提高每个物品处理速度"
 			]
 			dependencies: ["5F385CBA98795C62"]
 			id: "22BC123D486CC3E3"
@@ -92,8 +92,8 @@
 		{
 			x: 3.5d
 			y: 0.0d
-			subtitle: "Breaks Ores into Dusts"
-			description: ["The Pulverizer breaks raw ores into dusts, and also has a 25% chance to create an extra dust."]
+			subtitle: "将矿石研磨成粉"
+			description: ["磨粉机可以将原矿研磨成粉，并且有25%的概率产出额外的粉。"]
 			dependencies: ["22BC123D486CC3E3"]
 			id: "55C8DD9A754545BD"
 			tasks: [{
@@ -105,11 +105,11 @@
 		{
 			x: 5.5d
 			y: 0.0d
-			subtitle: "The Alloy Maker"
+			subtitle: "合金生产商"
 			description: [
-				"The Induction Furnace combines materials into new alloys."
+				"感应炉能够将材料熔炼成全新的合金"
 				""
-				"This is also useful when smelting Ancient Debris into Netherite Scraps."
+				"这在把远古残骸熔炼成下界合金碎片时非常有用。"
 			]
 			dependencies: ["55C8DD9A754545BD"]
 			id: "452F51995AD0461C"
@@ -137,8 +137,8 @@
 			x: -0.5d
 			y: 0.0d
 			shape: "hexagon"
-			subtitle: "The Basic Frame for Machines"
-			description: ["The Machine Frame is needed to craft various machines in Thermal Series."]
+			subtitle: "机器的基础框架"
+			description: ["在热力系列中，机器框架用于合成各种机器。"]
 			dependencies: ["2C50B0E024C3D92E"]
 			id: "5F385CBA98795C62"
 			tasks: [{
@@ -163,7 +163,7 @@
 			x: 7.5d
 			y: -1.0d
 			shape: "hexagon"
-			subtitle: "Generates Power by Burning Items!"
+			subtitle: "通过燃烧发电！"
 			hide_dependency_lines: true
 			dependencies: ["2C50B0E024C3D92E"]
 			id: "3DA93308D19BA85F"
@@ -190,8 +190,8 @@
 			x: 7.5d
 			y: 0.0d
 			shape: "hexagon"
-			subtitle: "Generates Power using Liquid Fuel!"
-			description: ["Note: This accepts Tree Oil, Creosote Oil, and Refined Fuel."]
+			subtitle: "使用流体发电！"
+			description: ["注意：这接受树油、杂酚油和精炼油"]
 			hide_dependency_lines: true
 			dependencies: ["2C50B0E024C3D92E"]
 			id: "7FE2EED58AB791E8"
@@ -219,7 +219,7 @@
 			x: 8.5d
 			y: -1.0d
 			shape: "hexagon"
-			subtitle: "Generates Power using Lava!"
+			subtitle: "使用熔岩发电！"
 			hide_dependency_lines: true
 			dependencies: ["2C50B0E024C3D92E"]
 			id: "2F71FCE4E576C977"
@@ -245,7 +245,7 @@
 			x: 8.5d
 			y: 1.0d
 			shape: "hexagon"
-			subtitle: "Generates Power using Gems!"
+			subtitle: "使用宝石发电！"
 			hide_dependency_lines: true
 			dependencies: ["2C50B0E024C3D92E"]
 			id: "72C1C2CE02DCBDFF"
@@ -273,7 +273,7 @@
 			x: 7.5d
 			y: 1.0d
 			shape: "hexagon"
-			subtitle: "Generates Power using Enchanted Items!"
+			subtitle: "使用附魔物品发电！"
 			description: [""]
 			hide_dependency_lines: true
 			dependencies: ["2C50B0E024C3D92E"]
@@ -300,7 +300,7 @@
 			x: 8.5d
 			y: 0.0d
 			shape: "hexagon"
-			subtitle: "Generates Power using Food?"
+			subtitle: "使用食物发电？"
 			hide_dependency_lines: true
 			dependencies: ["2C50B0E024C3D92E"]
 			id: "40ADAB71DB70EF32"
@@ -327,8 +327,8 @@
 			x: 1.0d
 			y: 2.0d
 			shape: "hexagon"
-			subtitle: "Tier 1 Base Upgrade"
-			description: ["This is a base upgrade for all machines and items. It does not stack with itself."]
+			subtitle: "一级基础升级"
+			description: ["这是所有机器与物品的基础升级，它不能与自己叠加使用。"]
 			hide_dependency_lines: true
 			dependencies: ["2C50B0E024C3D92E"]
 			id: "76084BE1BBCF941F"
@@ -342,11 +342,11 @@
 			x: 2.0d
 			y: 2.0d
 			shape: "hexagon"
-			subtitle: "Tier 2 Base Upgrade"
+			subtitle: "二级基础升级"
 			description: [
-				"This is a tier 2 upgrade for Thermal Series items and machines."
+				"这是热力系列机器与物品的二级升级"
 				""
-				"It does not stack with itself, but can stack with other tier upgrades."
+				"它不能与自己叠加使用，但可以与其他升级同时使用。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["2C50B0E024C3D92E"]
@@ -361,11 +361,11 @@
 			x: 3.0d
 			y: 2.0d
 			shape: "hexagon"
-			subtitle: "Tier 3 Base Upgrade"
+			subtitle: "三级基础升级"
 			description: [
-				"This is the highest base tier upgrade for Thermal Series items and machines."
+				"这是热力系列机器与物品的最高等级升级"
 				""
-				"It cannot stack with itself, but can stack with other base tier upgrades."
+				"它不能与自己叠加使用，但可以与其他基础升级同时使用。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["2C50B0E024C3D92E"]
@@ -380,7 +380,7 @@
 			x: -5.0d
 			y: 2.5d
 			shape: "diamond"
-			description: ["Creates an infinite water source when placed between two water source blocks."]
+			description: ["放在2个水源方块中间，能够产出无限的水。"]
 			hide_dependency_lines: true
 			dependencies: ["2C50B0E024C3D92E"]
 			id: "213FFA67A680E534"
@@ -399,8 +399,8 @@
 			x: -4.5d
 			y: 3.0d
 			shape: "diamond"
-			subtitle: "Charges Items"
-			description: ["This machine charges the items placed inside."]
+			subtitle: "充能物品"
+			description: ["这台机器能够给机器中的物品充能。"]
 			hide_dependency_lines: true
 			dependencies: ["2C50B0E024C3D92E"]
 			id: "5FDEAA78891874FD"
@@ -419,11 +419,11 @@
 			x: -4.5d
 			y: 2.0d
 			shape: "diamond"
-			subtitle: "A Cobblestone Generator"
+			subtitle: "造石机"
 			description: [
-				"This machine can produce several types of stone."
+				"这台机器能够生产好几种石头。"
 				""
-				"Place 1 lava source block on one side, and 1 water source block on the other, and it will generate cobblestone. Check the recipes to see the other kinds of stone you can create!"
+				"在一边放置一桶熔岩，另一边放置一桶水，它将产出圆石。查看合成表，看看您可以产出的其他种类。"
 			]
 			hide_dependency_lines: false
 			dependencies: ["2C50B0E024C3D92E"]
