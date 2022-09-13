@@ -380,7 +380,7 @@
 			x: -5.0d
 			y: 2.5d
 			shape: "diamond"
-			description: ["放在2个水源方块中间，能够产出无限的水。"]
+			description: ["放在2桶水中间，能够产出无限的水。"]
 			hide_dependency_lines: true
 			dependencies: ["2C50B0E024C3D92E"]
 			id: "213FFA67A680E534"
