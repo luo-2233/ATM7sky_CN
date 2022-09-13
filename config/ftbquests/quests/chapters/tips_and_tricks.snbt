@@ -3,7 +3,7 @@
 	group: ""
 	order_index: 3
 	filename: "tips_and_tricks"
-	title: "Tips \\& Tricks"
+	title: "提示与技巧"
 	default_quest_shape: "diamond"
 	default_hide_dependency_lines: false
 	images: [
@@ -48,8 +48,8 @@
 		{
 			x: -3.5d
 			y: 2.0d
-			subtitle: "Can be used as Reactor Coolant"
-			description: ["Easy item to automate infinite water. Need more water? Make another!"]
+			subtitle: "可以作为反应堆的冷却剂吗"
+			description: ["简单的物品就能够自动化无限水。需要更多的水？再做一个吧！"]
 			id: "722978AC0C1B2649"
 			tasks: [{
 				id: "6855AE257D62AA37"
@@ -73,8 +73,8 @@
 			x: -0.5d
 			y: 0.5d
 			shape: "diamond"
-			subtitle: "Honey I Shrunk Myself"
-			description: ["Use this item to shrink. Helpful for working on automation and also just overall fun."]
+			subtitle: "亲爱的，我缩小了自己"
+			description: ["使用此物品放大缩小。对制作自动化很有帮助，也很有趣。"]
 			id: "7EC8814940C4C3D7"
 			tasks: [{
 				id: "30C938C85BED7956"
@@ -102,8 +102,8 @@
 			title: "OreSight Potions"
 			x: -1.0d
 			y: 1.0d
-			subtitle: "It's like X-Ray Vision!"
-			description: ["This potion will allow you to see the respective ore through the walls."]
+			subtitle: "就像是透视的感觉"
+			description: ["该药水能够帮助您透过墙壁看到相应的矿石"]
 			id: "3EE9F242794CD95F"
 			tasks: [{
 				id: "15F5B24545C0D42F"
@@ -148,11 +148,11 @@
 		{
 			x: -6.0d
 			y: 0.0d
-			subtitle: "When an infinite world is too small"
+			subtitle: "当无限的世界太过狭小"
 			description: [
-				"It's an entire room in one block!"
+				"整个房间都浓缩在一个方块之中！"
 				""
-				"Higher tiers are even bigger on the inside."
+				"等级越高内部空间越大。"
 			]
 			dependencies: ["73F91BF3D424B269"]
 			id: "594540768120A627"
@@ -176,10 +176,10 @@
 			]
 		}
 		{
-			title: "Compact Machines"
+			title: "压缩空间"
 			x: -6.0d
 			y: 1.0d
-			description: ["This item is serves as the guide for Compact Machines, as well as the tool needed to teleport into your tiny machine worlds."]
+			description: ["这个物品是压缩空间的指南，也是出入压缩空间的道具。"]
 			id: "73F91BF3D424B269"
 			tasks: [{
 				id: "3B227EED4B839733"
@@ -193,14 +193,14 @@
 			}]
 		}
 		{
-			title: "Building Gadgets"
+			title: "建筑小帮手"
 			x: -5.5d
 			y: 0.5d
 			shape: "diamond"
 			description: [
-				"Some useful gadgets for building."
+				"一些有用的建筑工具"
 				""
-				"&cDestruction Gadget voids blocks!"
+				"&c破坏小帮手会直接销毁方块"
 			]
 			id: "0F75D7B9F4FF2459"
 			tasks: [
@@ -275,13 +275,13 @@
 			}]
 		}
 		{
-			title: "Building Wands"
+			title: "建筑之杖"
 			x: -6.5d
 			y: 0.5d
 			description: [
-				"Can be helpful for building."
+				"能够帮助您进行建设。"
 				""
-				"The consruction wand has cores that can be added to it in crafting. Sneak left-click the air to switch between cores."
+				"建筑之杖有不同的核心，能够在合成中添加核心。潜心右键空气切换核心。"
 			]
 			id: "2A2E3D020B1F5126"
 			tasks: [{
@@ -307,7 +307,7 @@
 			x: -3.5d
 			y: 0.5d
 			shape: "gear"
-			subtitle: "Complete all of the tips!"
+			subtitle: "完成所有的提示！"
 			hide_dependency_lines: true
 			dependencies: [
 				"722978AC0C1B2649"
@@ -330,13 +330,13 @@
 			}]
 		}
 		{
-			title: "X-Ray Charms"
+			title: "透视饰品"
 			x: -1.0d
 			y: 0.0d
 			description: [
-				"OreSight Potions can be used to craft Charms!"
+				"矿石视野药水能够用于制作护身符！"
 				""
-				"Charms are Curios that last longer, and can be toggled on and off."
+				"护身符是一种持续时间较长的饰品，可以随时开启或关闭。"
 			]
 			dependencies: ["3EE9F242794CD95F"]
 			id: "6396AA6918B47DDC"
@@ -386,8 +386,8 @@
 			x: -3.5d
 			y: -2.0d
 			shape: "hexagon"
-			subtitle: "And Other Useful Items!"
-			description: ["On this page, you'll find some useful items and info to help you on your journey!"]
+			subtitle: "和其他有用的物品"
+			description: ["在这个页面上，你能够找到一些有用的物品或信息来给你的旅途助力。"]
 			size: 2.0d
 			id: "0C856BBB1679A7DD"
 			tasks: [{
@@ -425,9 +425,9 @@
 			x: -3.5d
 			y: 3.0d
 			description: [
-				"The rending gale if you are unfamiliar is a method of creative flight! it requires small amounts of emc to run"
+				"如果您不熟悉疾风戒指的话，那是一种创造飞行的方法！它需要少量的EMC才能运行"
 				""
-				"For EMC before a transmutation table, we recommend redstone/glowstone, or a klein star which is the battery of this mod, you can fill these in a projectE relay!"
+				"对于拥有转化桌之前的EMC值，我们建议使用红石/萤石或者本模组的电池卡莱恩能量之星，您可以在反物质继电器中为其充能！"
 			]
 			id: "25E585C8AE7430DC"
 			tasks: [
