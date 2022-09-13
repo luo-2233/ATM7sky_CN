@@ -4,9 +4,9 @@ onEvent('mekanism.slurry.registry', event => {
 })
 
 onEvent('item.registry',event => {
-    event.create('clump_cobalt').displayName('Cobalt Clump')
-    event.create('crystal_cobalt').displayName('Cobalt Crystal')
-    event.create('dirty_dust_cobalt').displayName('Dirty Cobalt Dust')
-    event.create('dust_cobalt').displayName('Cobalt Dust')
-    event.create('shard_cobalt').displayName('Cobalt Shard')
+    event.create('clump_cobalt').displayName('钴碎块')
+    event.create('crystal_cobalt').displayName('钴结晶')
+    event.create('dirty_dust_cobalt').displayName('污浊钴粉')
+    event.create('dust_cobalt').displayName('钴粉')
+    event.create('shard_cobalt').displayName('钴碎片')
 })
