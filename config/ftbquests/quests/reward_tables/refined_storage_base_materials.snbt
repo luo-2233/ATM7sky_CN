@@ -1,7 +1,7 @@
 {
 	id: "3787F5188902B0FD"
 	order_index: 3
-	title: "Refined Storage Base Materials"
+	title: "精致存储基础材料"
 	loot_size: 1
 	rewards: [
 		{ item: "refinedstorage:silicon", count: 5 }

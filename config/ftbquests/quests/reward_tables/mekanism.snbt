@@ -1,7 +1,7 @@
 {
 	id: "63E11953DD289422"
 	order_index: 4
-	title: "Mekanism: Basic Rewards"
+	title: "通用机械：基础奖励"
 	loot_size: 1
 	rewards: [
 		{ item: "mekanism:alloy_infused", count: 2, random_bonus: 2, weight: 4 }

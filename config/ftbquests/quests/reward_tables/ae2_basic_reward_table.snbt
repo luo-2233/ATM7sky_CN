@@ -1,7 +1,7 @@
 {
 	id: "517CB2DAB0515A50"
 	order_index: 5
-	title: "AE2 Medium Reward Bag"
+	title: "AE2中型奖励包"
 	loot_size: 1
 	rewards: [
 		{ item: "ae2:certus_quartz_crystal", count: 2, random_bonus: 2, weight: 4 }

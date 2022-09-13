@@ -1,7 +1,7 @@
 {
 	id: "3183DFB374F0B096"
 	order_index: 2
-	title: "Refined Storage Parts"
+	title: "精致存储配件"
 	loot_size: 1
 	rewards: [
 		{ item: "refinedstorage:basic_processor", count: 3, weight: 40 }

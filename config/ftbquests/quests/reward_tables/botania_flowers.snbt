@@ -1,7 +1,7 @@
 {
 	id: "129BBEE2418753DE"
 	order_index: 0
-	title: "Botania Flowers"
+	title: "植物魔法花"
 	loot_size: 1
 	rewards: [
 		{ item: "botania:red_mystical_flower", count: 5 }
